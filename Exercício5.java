@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercício5 {
+public class ExercÃ­cio5 {
 
 	public static void main(String[] args) {
 		
@@ -9,7 +9,7 @@ public class Exercício5 {
 		
 		float nota1, nota2, nota3, nota4, soma;
 		
-		System.out.println("Digite 4 notas que você tirou no bimestre:\n ");
+		System.out.println("Digite 4 notas que vocÃª tirou no bimestre:\n ");
 		
 		System.out.print("Nota - 1: ");
 		nota1 = leitor.nextFloat();
@@ -28,18 +28,18 @@ public class Exercício5 {
 		soma = (nota1 + nota2 + nota3 + nota4) /4;
 		System.out.println(soma);
 		
-		if (soma >7 || soma ==7) {
+		if (soma >=7) {
 			System.out.printf("Media:%.1f\n", soma);
-			System.out.println("Você foi Aprovado! Parabéns!!");}
+			System.out.println("VocÃª foi Aprovado! ParabÃ©ns!!");}
 		
 		else if (soma >= 3.5 || soma <7) {
 			System.out.printf("Media:%.1f\n", soma);
-			System.out.println("Você ficou em recuperação.");}
+			System.out.println("VocÃª ficou em recuperaÃ§Ã£o.");}
 		
 		else if (soma <3.5) {
 			System.out.printf("Media:%.1f", soma);
 			System.out.println();
-			System.out.println("Você foi reprovado.");}
+			System.out.println("VocÃª foi reprovado.");}
 		
 		
 		
